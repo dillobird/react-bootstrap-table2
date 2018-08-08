@@ -37,6 +37,7 @@ const SizePerPageDropDown = (props) => {
             style={ dropDownStyle }
             className={ dropdownClasses }
           >
+            <span>Rows per page: </span>
             <button
               id="pageDropDown"
               className={ `btn ${btnContextual} dropdown-toggle` }
